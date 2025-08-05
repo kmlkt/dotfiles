@@ -3,3 +3,4 @@
 !.config/
 !.config/**
 .config/gh
+.config/pulse
