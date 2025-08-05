@@ -3,20 +3,52 @@
     "position": "bottom",
     "height": 40,
     "modules-center": ["sway/workspaces"],
-    "wlr/taskbar": {
-        "all-outputs": true,
-        "format": "{icon} {title}",
-        "on-click": "activate",
-    },
+    "modules-right": ["tray", "network", "pulseaudio", "battery", "clock"],
+
     "sway/workspaces": {
         "format": "<span color='#ffffffa0'>{value}</span> {windows}",
         "window-rewrite": {},
         "window-format": "{name}",
         "window-rewrite": {
-            "class<(.*)firefox(.*)": "FF",
+            "class<(.*)waterfox(.*)": "B",
             "class<(.*)zed(.*)> title<(.*)—(.*)": "Z:$3",
             "class<(.*)foot(.*)>": "T",
         },
         "window-rewrite-default": "{name}",
     },
+
+    "tray": {
+        "spacing": 10
+    },
+    "clock": {
+        "tooltip-format": "{:%Y-%m-%d | %H:%M:%S}",
+        "format-alt": "{:%Y-%m-%d}",
+        "format": "{:%H:%M}"
+    },
+    "battery": {
+        "format": "{icon}　{capacity}%",
+        "format-full": "",
+        "format-icons": ["", "", "", "", ""]
+    },
+    "network": {
+        "format-wifi": "",
+        "format-ethernet": "{ifname}: {ipaddr}/{cidr} ethernet",
+        "format-disconnected": "⚠"
+    },
+    "pulseaudio": {
+        //"scroll-step": 1,
+        "format": "　{volume}%",
+        "format-bluetooth": "{volume}% {icon}",
+        "format-muted": "",
+        "format-icons": {
+            "headphones": "",
+            "handsfree": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", ""]
+        },
+        "on-click": "pavucontrol"
+    }
 }
