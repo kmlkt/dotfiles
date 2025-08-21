@@ -12,6 +12,7 @@ force_keyboard_focus = true
 theme_location = []
 plugin_location = []
 js_runtime = "node"
+terminal = "foot"
 
 [keys]
 accept_typeahead = ["tab"]
