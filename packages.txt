@@ -57,4 +57,3 @@ yay-bin
 yay-bin-debug
 yazi
 zed
-fzf
