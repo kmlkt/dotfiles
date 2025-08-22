@@ -22,11 +22,6 @@ echo -e $RED
 echo $REMOVE
 echo -e $NC
 
-
-read -p "Proceed? (Y/n)" yn
-case $yn in
-    [Nn]* ) exit;;
-esac
 echo "Okay, let's do it"
 yay -S --noconfirm $INSTALL
 yay -Rns --noconfirm $REMOVE
