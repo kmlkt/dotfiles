@@ -22,6 +22,11 @@ echo -e $RED
 echo $REMOVE
 echo -e $NC
 
+read -p "Proceed? (Y/n)" yn
+case $yn in
+    [Nn]* ) exit;;
+esac
+
 echo "Okay, let's do it"
 yay --sudoloop -S --noconfirm $INSTALL
 yay --sudoloop -Rns --noconfirm $REMOVE
