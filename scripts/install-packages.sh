@@ -23,5 +23,6 @@ echo $REMOVE
 echo -e $NC
 
 echo "Okay, let's do it"
-yay -S --noconfirm $INSTALL
-yay -Rns --noconfirm $REMOVE
+yay --sudoloop -S --noconfirm $INSTALL
+yay --sudoloop -Rns --noconfirm $REMOVE
+echo "We did it"
