@@ -32,7 +32,7 @@
     },
     "network": {
         "format-wifi": "",
-        "format-ethernet": "{ifname}: {ipaddr}/{cidr} ethernet",
+        "format-ethernet": "",
         "format-disconnected": "⚠"
     },
     "pulseaudio": {
