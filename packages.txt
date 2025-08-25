@@ -11,6 +11,7 @@ git
 github-cli
 greetd
 grim
+grub
 gst-plugin-pipewire
 htop
 intel-media-driver
