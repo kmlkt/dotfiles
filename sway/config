@@ -30,21 +30,20 @@ include /etc/sway/config-vars.d/*
 
 input type:keyboard {
     xkb_layout us,ru
-    xkb_options grp:caps_toggle,grp_led:caps
+    xkb_options grp:shift_caps_switch,grp_led:caps,numpad:mac
 }
 ### Key bindings
 #
 # Basics:
 #
+
+    bindsym $mod+Delete exec shutdown now
     bindsym --release Super_L exec walker
     # Start a terminal
     bindsym $mod+Return exec $term
 
     # Kill focused window
     bindsym $mod+Escape kill
-
-    # Start your launcher
-    bindsym $mod+d exec $menu
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
