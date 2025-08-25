@@ -58,3 +58,4 @@ yay-bin
 yay-bin-debug
 yazi
 zed
+amneziavpn-bin
