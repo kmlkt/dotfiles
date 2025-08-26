@@ -1,0 +1,11 @@
+window#waybar {
+    background-color: #ffffff; /* Dark background */
+    color: #000000; /* Light text color */
+}
+
+* {
+    border: none;
+    font-family: "JetbrainsMono Nerd Font";
+    font-size: 15px;
+    min-height: 10px;
+}
