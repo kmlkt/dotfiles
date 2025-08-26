@@ -59,4 +59,4 @@ yay-bin-debug
 yazi
 zed
 amneziavpn-bin
-ghostscript-printer-app
+cups
