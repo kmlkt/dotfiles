@@ -59,6 +59,10 @@ yay-bin-debug
 yazi
 zed
 amneziavpn-bin
+
 cups
 usbutils
 ghostscript
+hplip
+hplip-plugin
+python-pyqt5
