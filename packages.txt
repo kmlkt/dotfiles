@@ -60,5 +60,4 @@ yazi
 zed
 amneziavpn-bin
 hplip
-hplip-plugin
 system-config-printer
