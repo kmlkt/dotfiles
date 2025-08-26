@@ -2,7 +2,7 @@ default_border pixel
 hide_edge_borders both
 smart_borders on
 
-exec_always swaybg -c a0a0ff
+exec_always swaybg -c ffffff
 focus_follows_mouse no
 
 # Default config for sway
