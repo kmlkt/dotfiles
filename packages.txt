@@ -61,4 +61,3 @@ zed
 amneziavpn-bin
 hplip
 system-config-printer
-hp-doctor
