@@ -13,6 +13,7 @@
             "class<(.*)waterfox(.*)": "B",
             "class<(.*)zed(.*)> title<(.*)—(.*)": "Z:$3",
             "class<(.*)foot(.*)>": "T",
+            "class<(.*)telegram(.*)>": "Tg",
         },
         "window-rewrite-default": "{name}",
     },
