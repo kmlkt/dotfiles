@@ -61,3 +61,4 @@ zed
 amneziavpn-bin
 cups
 usbutils
+ghostscript
