@@ -7,15 +7,15 @@
 
     "sway/workspaces": {
         "format": "<span color='#a0a0a0'>{value}</span> {windows}",
-        "window-rewrite": {},
         "window-format": "{name}",
         "window-rewrite": {
             "class<(.*)waterfox(.*)": "B",
-            "class<(.*)zed(.*)> title<(.*)—(.*)": "Z:$3",
-            "class<(.*)foot(.*)>": "T",
-            "class<(.*)telegram(.*)>": "Tg",
+            "class<(.*)zed(.*)> title<(.*)—(.*)>": "Z:$3",
+            "class<(.*)kitty(.*)> title<(.*)Yazi(.*)>": "Y",
+            "class<(.*)kitty(.*)>": "T",
+            "class<(.*)telegram(.*)>": "Tg"
         },
-        "window-rewrite-default": "{name}",
+        "window-rewrite-default": "{name}"
     },
 
     "tray": {
@@ -37,7 +37,6 @@
         "format-disconnected": "⚠"
     },
     "pulseaudio": {
-        //"scroll-step": 1,
         "format": "　{volume}%",
         "format-bluetooth": "{volume}% {icon}",
         "format-muted": "",

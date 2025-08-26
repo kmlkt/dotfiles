@@ -1,0 +1,15 @@
+[[mgr.prepend_keymap]]
+on = "<C-c>"
+run = "yank"
+[[mgr.prepend_keymap]]
+on = "<c>"
+run = "yank"
+[[mgr.prepend_keymap]]
+on = "<C-x>"
+run = "yank --cut"
+[[mgr.prepend_keymap]]
+on = "<Delete>"
+run = "remove --force"
+[[mgr.prepend_keymap]]
+on = "<S-Delete>"
+run = "remove --force --permanently"
