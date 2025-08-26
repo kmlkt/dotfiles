@@ -30,6 +30,7 @@ $mod+b exec waterfox
 $mod+y exec $term yazi
 $mod+t exec Telegram
 $mod+Delete exec shutdown now
+$mod+Insert exec shutdown now --reboot
 
 $mod+Escape kill
 $mod+Shift+c reload
