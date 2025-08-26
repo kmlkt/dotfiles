@@ -6,7 +6,7 @@ bluez-utils
 brightnessctl
 cmake
 efibootmgr
-foot
+kitty
 git
 github-cli
 greetd
