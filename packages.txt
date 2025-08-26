@@ -63,6 +63,5 @@ amneziavpn-bin
 cups
 usbutils
 ghostscript
-hplip
 hplip-plugin
 python-pyqt5
