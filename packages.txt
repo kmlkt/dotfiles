@@ -59,3 +59,5 @@ yay-bin-debug
 yazi
 zed
 amneziavpn-bin
+hplip
+hplip-plugin
