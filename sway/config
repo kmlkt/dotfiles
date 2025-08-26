@@ -21,9 +21,9 @@ set $down j
 set $up k
 set $right l
 # Your preferred terminal emulator
-set $term foot
+set $term kitty
 # Your preferred application launcher
-set $menu wmenu-run
+set $menu walker
 
 include /etc/sway/config-vars.d/*
 
@@ -38,7 +38,7 @@ input type:keyboard {
 #
 bindsym --to-code {
 $mod+Delete exec shutdown now
---release Super_L exec walker
+--release Super_L exec $menu
     # Start a terminal
 $mod+Return exec $term
 
