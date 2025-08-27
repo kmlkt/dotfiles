@@ -29,7 +29,7 @@ $mod+z exec zeditor
 $mod+b exec waterfox
 $mod+y exec $term -e yazi
 $mod+t exec Telegram
-$mod+a exec $term -e sync.sh
+$mod+a exec $term --hold sh -c "source ~/.bashrc ; echo $PATH"
 $mod+Delete exec shutdown now
 $mod+Insert exec shutdown now --reboot
 
