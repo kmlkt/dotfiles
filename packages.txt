@@ -59,6 +59,7 @@ yay-bin-debug
 yazi
 zed
 amneziavpn-bin
+betterbird-bin
 
 cups
 usbutils
