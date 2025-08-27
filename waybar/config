@@ -13,7 +13,8 @@
             "class<(.*)zed(.*)> title<(.*)—(.*)>": "Z:$3",
             "class<(.*)kitty(.*)> title<(.*)Yazi(.*)>": "Y",
             "class<(.*)kitty(.*)>": "T",
-            "class<(.*)telegram(.*)>": "Tg"
+            "class<(.*)telegram(.*)>": "Tg",
+            "class<(.*)betterbird(.*)>": "M"
         },
         "window-rewrite-default": "{name}"
     },

@@ -60,6 +60,7 @@ yazi
 zed
 amneziavpn-bin
 betterbird-bin
+7z
 
 cups
 usbutils
