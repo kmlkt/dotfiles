@@ -30,6 +30,7 @@ $mod+b exec waterfox
 $mod+y exec $term -e yazi
 $mod+t exec Telegram
 $mod+a exec AmneziaVPN
+Print exec grim -g "$(slurp -d)" - | wl-copy
 $mod+Delete exec shutdown now
 $mod+Insert exec shutdown now --reboot
 
@@ -94,7 +95,6 @@ $mod+Ctrl+space focus parent
 --locked XF86AudioMicMute exec pactl set-source-mute \@DEFAULT_SOURCE@ toggle
 --locked XF86MonBrightnessDown exec brightnessctl set 5%-
 --locked XF86MonBrightnessUp exec brightnessctl set 5%+
-Print exec grim -g "$(slurp)"
 }
 floating_modifier $mod normal
 
