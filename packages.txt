@@ -62,6 +62,7 @@ amneziavpn-bin
 betterbird-bin
 7zip
 wl-clipboard
+libqalculate
 
 cups
 usbutils

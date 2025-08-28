@@ -6,12 +6,10 @@
     "metrics": false,
     "diagnostics": false
   },
-  "autosave": "on_focus_change",
   "format_on_save": "on",
   "title_bar": {
     "show_user_picture": false
   },
-  ""
   "toolbar": {
     "agent_review": false,
     "breadcrumbs": false,
