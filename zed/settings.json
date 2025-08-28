@@ -1,4 +1,7 @@
 {
+  "debugger": {
+    "dock": "right"
+  },
   "telemetry": {
     "metrics": false,
     "diagnostics": false
