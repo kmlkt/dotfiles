@@ -61,7 +61,7 @@ zed
 amneziavpn-bin
 betterbird-bin
 7zip
-wl-copy
+wl-clipboard
 
 cups
 usbutils
