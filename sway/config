@@ -32,6 +32,7 @@ $mod+y exec $term -e yazi
 $mod+t exec Telegram
 $mod+a exec AmneziaVPN
 $mod+c exec zeditor ~/.config
+$mod+s exec $vars sync.sh
 Print exec grim -g "$(slurp -d)" - | wl-copy
 $mod+Delete exec shutdown now
 $mod+Insert exec shutdown now --reboot
@@ -79,7 +80,6 @@ $mod+Shift+0 move container to workspace number 10
 $mod+h splith
 $mod+v splitv
 
-$mod+s layout stacking
 $mod+w layout tabbed
 $mod+e layout toggle split
 
