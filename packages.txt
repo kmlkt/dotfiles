@@ -38,16 +38,7 @@ telegram-desktop
 vulkan-intel
 vulkan-nouveau
 vulkan-radeon
-elephant
-elephant-desktopapplications
-elephant-files
-elephant-clipboard
-elephant-runner
-elephant-symbols
-elephant-providerlist
-elephant-calc
-elephant-menus
-walker
+fuzzel
 waterfox-bin
 waybar
 wget
