@@ -44,7 +44,7 @@ elephant-files
 elephant-clipboard
 elephant-runner
 elephant-symbols
-elephant-archlinuxpkgs
+elephant-providerlist
 elephant-calc
 elephant-menus
 walker
