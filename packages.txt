@@ -63,6 +63,7 @@ betterbird-bin
 7zip
 wl-clipboard
 libqalculate
+onlyoffice-bin
 
 cups
 usbutils
