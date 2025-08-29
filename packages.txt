@@ -38,6 +38,7 @@ telegram-desktop
 vulkan-intel
 vulkan-nouveau
 vulkan-radeon
+elephant
 walker
 waterfox-bin
 waybar
