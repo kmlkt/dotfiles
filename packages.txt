@@ -68,6 +68,7 @@ onlyoffice-bin
 smbclient
 nmap
 fzf
+fd
 
 cups
 usbutils
