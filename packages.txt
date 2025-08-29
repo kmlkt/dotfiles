@@ -64,6 +64,7 @@ betterbird-bin
 wl-clipboard
 libqalculate
 onlyoffice-bin
+smbclient-bin
 
 cups
 usbutils
