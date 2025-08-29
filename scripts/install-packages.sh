@@ -27,7 +27,7 @@ case $yn in
     [Nn]* ) exit;;
 esac
 echo "Okay, let's do it"
-yay
+#yay
 yay --sudoloop -S --noconfirm $INSTALL
 yay --sudoloop -Rns --noconfirm $REMOVE
 echo "We did it"
