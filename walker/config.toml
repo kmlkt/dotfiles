@@ -261,3 +261,9 @@ icon = "accessories-dictionary"
 placeholder = "Translation"
 switcher_only = true
 provider = "googlefree"
+
+[[plugins]]
+name = "Connect-Share"
+[[plugins.entries]]
+label = "Connect to share folder"
+exec = "kitty ~/.config/scripts/connect-share.sh"
