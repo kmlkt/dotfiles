@@ -7,5 +7,6 @@ alias nano='zed -n'
 alias vi='zed -n'
 export EDITOR='zeditor -n'
 
+export TERMINAL='kitty'
 export PATH="$PATH:~/.config/scripts"
 alias s='sync.sh'

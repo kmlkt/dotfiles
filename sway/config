@@ -3,14 +3,13 @@ hide_edge_borders both
 smart_borders on
 
 exec_always swaybg -c ffffff
-exec_always elephant
-exec_always walker --gapplication-service
 focus_follows_mouse no
 
 ### Variables
 set $mod Mod4
 set $term kitty
-set $menu walker
+set $menu fuzzel
+set $vars PATH=$PATH:~/.config/scripts TERMINAL=kitty
 
 include /etc/sway/config-vars.d/*
 
@@ -25,7 +24,7 @@ input type:keyboard {
 # Basics:
 #
 bindsym --to-code {
---release Super_L exec $menu
+--release Super_L exec $vars $menu
 $mod+Return exec $term
 $mod+z exec zeditor
 $mod+b exec waterfox
