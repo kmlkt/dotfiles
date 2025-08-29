@@ -39,6 +39,8 @@ vulkan-intel
 vulkan-nouveau
 vulkan-radeon
 elephant
+elephant-desktopapplications
+elephant-files
 walker
 waterfox-bin
 waybar
