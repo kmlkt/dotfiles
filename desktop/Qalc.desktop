@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=Qalc
+Exec=qalc --set "autocalc yes"
+Terminal=true
