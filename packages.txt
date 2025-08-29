@@ -44,6 +44,8 @@ elephant-files
 elephant-clipboard
 elephant-runner
 elephant-symbols
+elephant-archlinuxpkgs
+elephant-calc
 walker
 waterfox-bin
 waybar
