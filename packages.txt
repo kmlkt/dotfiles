@@ -41,6 +41,9 @@ vulkan-radeon
 elephant
 elephant-desktopapplications
 elephant-files
+elephant-clipboard
+elephant-runner
+elephant-symbols
 walker
 waterfox-bin
 waybar
