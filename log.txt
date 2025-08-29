@@ -1,1 +1,12 @@
 /home/karim/.config/scripts/sync.sh
+[master 9ef8187] auto commit
+ 1 file changed, 1 insertion(+)
+Already up to date.
+To install:
+[32m
+fzf
+[0m
+To remove:
+[31m
+
+[0m
