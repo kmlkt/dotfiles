@@ -9,7 +9,7 @@ focus_follows_mouse no
 set $mod Mod4
 set $term kitty
 set $menu fuzzel
-set $vars PATH=$PATH:~/.config/scripts TERMINAL=kitty
+set $vars PATH=$PATH:~/.config/scripts TERMINAL=kitty EDITOR='zeditor -n'
 
 include /etc/sway/config-vars.d/*
 
@@ -28,7 +28,7 @@ bindsym --to-code {
 $mod+Return exec $term
 $mod+z exec zeditor
 $mod+b exec waterfox
-$mod+y exec $term -e yazi
+$mod+y exec $vars $term -e yazi
 $mod+t exec Telegram
 $mod+a exec AmneziaVPN
 $mod+c exec zeditor ~/.config
