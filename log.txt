@@ -1,0 +1,1 @@
+/home/karim/.config/scripts/sync.sh
