@@ -38,7 +38,7 @@ telegram-desktop
 vulkan-intel
 vulkan-nouveau
 vulkan-radeon
-walker-bin
+walker
 waterfox-bin
 waybar
 wget
