@@ -76,3 +76,4 @@ ghostscript
 hplip-plugin
 
 ttf-fira-code
+ttf-montserrat

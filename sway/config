@@ -33,6 +33,7 @@ $mod+t exec Telegram
 $mod+a exec AmneziaVPN
 $mod+c exec zeditor ~/.config
 $mod+s exec $vars $term -e ~/.config/scripts/sync.sh
+$mod+q exec $vars $term -e qalc --set "autocalc yes"
 Print exec grim -g "$(slurp -d)" - | wl-copy
 $mod+Delete exec shutdown now
 $mod+Insert exec shutdown now --reboot
