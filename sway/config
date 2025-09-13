@@ -38,7 +38,7 @@ Print exec grim -g "$(slurp -d)" - | wl-copy
 $mod+Delete exec shutdown now
 $mod+Insert exec shutdown now --reboot
 
-$mod+Escape kill
+--release $mod+Escape kill
 $mod+Shift+c reload
 
 $mod+Left focus left
