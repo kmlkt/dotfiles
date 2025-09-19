@@ -70,7 +70,7 @@ nmap
 fzf
 fd
 android-tools
-jre-openjdk
+jdk-openjdk
 gradle
 
 cups
