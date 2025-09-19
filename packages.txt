@@ -71,6 +71,7 @@ fzf
 fd
 android-tools
 jre-openjdk
+gradle
 
 cups
 usbutils
