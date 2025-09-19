@@ -72,6 +72,7 @@ fd
 android-tools
 jdk-openjdk
 gradle
+kotlin
 
 cups
 usbutils
