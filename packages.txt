@@ -70,6 +70,7 @@ nmap
 fzf
 fd
 android-tools
+unzip
 sdkman-bin
 
 cups
