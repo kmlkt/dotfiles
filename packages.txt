@@ -70,6 +70,7 @@ nmap
 fzf
 fd
 android-tools
+zip
 unzip
 sdkman-bin
 
