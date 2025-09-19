@@ -70,9 +70,7 @@ nmap
 fzf
 fd
 android-tools
-jdk-openjdk
-gradle
-kotlin
+sdkman-bin
 
 cups
 usbutils
