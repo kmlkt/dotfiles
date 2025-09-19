@@ -69,6 +69,7 @@ smbclient
 nmap
 fzf
 fd
+android-tools
 
 cups
 usbutils

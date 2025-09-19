@@ -13,3 +13,6 @@ run = "remove --force"
 [[mgr.prepend_keymap]]
 on = "<S-Delete>"
 run = "remove --force --permanently"
+[[mgr.prepend_keymap]]
+on = "t"
+run = "create --dir"
