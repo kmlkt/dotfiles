@@ -71,9 +71,7 @@ smbclient
 nmap
 fzf
 fd
-android-tools
-android-platform
-sdkman-bin
+android-studio
 
 cups
 usbutils

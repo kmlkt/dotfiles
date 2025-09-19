@@ -12,14 +12,14 @@ echo "Nothing to do"
 exit
 fi
 
-echo "To install:"
-echo -e $GREEN
-echo $INSTALL
-echo -e $NC
-
 echo "To remove:"
 echo -e $RED
 echo $REMOVE
+echo -e $NC
+
+echo "To install:"
+echo -e $GREEN
+echo $INSTALL
 echo -e $NC
 
 read -p "Proceed? (Y/n)" yn
@@ -28,6 +28,6 @@ case $yn in
 esac
 echo "Okay, let's do it"
 #yay
-yay --sudoloop -S --noconfirm $INSTALL
 yay --sudoloop -Rns --noconfirm $REMOVE
+yay --sudoloop -S --noconfirm $INSTALL
 echo "We did it"
