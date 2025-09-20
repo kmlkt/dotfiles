@@ -72,6 +72,7 @@ nmap
 fzf
 fd
 android-studio
+openssh
 
 cups
 usbutils
