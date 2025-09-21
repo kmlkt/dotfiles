@@ -74,6 +74,7 @@ fd
 android-studio
 openssh
 vlc
+vlc-plugins-all
 
 cups
 usbutils
