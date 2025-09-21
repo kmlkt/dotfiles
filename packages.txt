@@ -73,6 +73,7 @@ fzf
 fd
 android-studio
 openssh
+vlc
 
 cups
 usbutils
