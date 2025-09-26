@@ -76,7 +76,7 @@ openssh
 vlc
 vlc-plugins-all
 yaak-appimage
-fuse
+fuse2
 libwebkit2gtk
 
 cups
