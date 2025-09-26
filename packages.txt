@@ -77,7 +77,7 @@ vlc
 vlc-plugins-all
 yaak-appimage
 fuse2
-libwebkit2gtk
+webkit2gtk
 
 cups
 usbutils
