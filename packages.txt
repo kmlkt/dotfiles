@@ -75,6 +75,7 @@ android-studio
 openssh
 vlc
 vlc-plugins-all
+yaak
 
 cups
 usbutils
