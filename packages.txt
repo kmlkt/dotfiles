@@ -75,7 +75,7 @@ android-studio
 openssh
 vlc
 vlc-plugins-all
-bruno
+bruno-bin
 
 cups
 usbutils
