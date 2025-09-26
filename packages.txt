@@ -75,9 +75,7 @@ android-studio
 openssh
 vlc
 vlc-plugins-all
-yaak-appimage
-fuse2
-webkit2gtk
+bruno
 
 cups
 usbutils
