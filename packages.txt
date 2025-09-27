@@ -81,6 +81,7 @@ gvfs
 xarchiver
 lxappearance
 arc-gtk-theme
+ant-gtk-theme
 
 cups
 usbutils
