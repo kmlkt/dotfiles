@@ -80,6 +80,7 @@ pcmanfm
 gvfs
 xarchiver
 lxappearance
+arc-gtk-theme
 
 cups
 usbutils
