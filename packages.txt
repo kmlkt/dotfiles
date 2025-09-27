@@ -76,6 +76,9 @@ openssh
 vlc
 vlc-plugins-all
 bruno-bin
+pcmanfm
+gvfs
+xarchiver
 
 cups
 usbutils
