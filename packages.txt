@@ -79,6 +79,7 @@ bruno-bin
 pcmanfm
 gvfs
 xarchiver
+lxappearance
 
 cups
 usbutils
