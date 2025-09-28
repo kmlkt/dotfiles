@@ -68,6 +68,7 @@ libqalculate
 menu-qalc
 onlyoffice-bin
 smbclient
+cifs-utils
 nmap
 fzf
 fd
