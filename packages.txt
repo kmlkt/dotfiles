@@ -81,7 +81,6 @@ gvfs-smb
 xarchiver
 lxappearance
 arc-gtk-theme
-python-pipx
 
 cups
 usbutils
