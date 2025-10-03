@@ -1,5 +1,6 @@
 [Default Applications]
 x-scheme-handler/bruno=bruno.desktop
+inode/directory=pcmanfm.desktop
 
 [Added Associations]
 application/octet-stream=dev.zed.Zed.desktop;
