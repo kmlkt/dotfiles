@@ -29,6 +29,7 @@ $mod+Return exec $term
 $mod+z exec zeditor
 $mod+b exec waterfox
 $mod+y exec $vars $term -e yazi
+$mod+m exec pcmanfm
 $mod+t exec Telegram
 $mod+a exec AmneziaVPN
 $mod+c exec zeditor ~/.config
