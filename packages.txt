@@ -55,7 +55,6 @@ xorg-server
 xorg-xinit
 xorg-xwayland
 yay-bin
-yay-bin-debug
 yazi
 zed
 amneziavpn-bin
