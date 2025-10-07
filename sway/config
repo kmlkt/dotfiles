@@ -106,4 +106,9 @@ bar {
     swaybar_command waybar
 }
 
+output {
+    HDMI-A-1 pos 0 0
+    eDP-1 pos 0 1080
+}
+
 include /etc/sway/config.d/*
