@@ -82,6 +82,7 @@ xarchiver
 lxappearance
 arc-gtk-theme
 docker
+golang
 
 cups
 usbutils
