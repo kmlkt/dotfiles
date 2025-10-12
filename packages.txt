@@ -81,6 +81,7 @@ gvfs-smb
 xarchiver
 lxappearance
 arc-gtk-theme
+mtpfs
 docker
 go
 
