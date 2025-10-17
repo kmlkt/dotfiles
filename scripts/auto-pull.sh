@@ -1,3 +1,5 @@
+sleep 10
+
 ~/.config/scripts/sync-config.sh
 cd ~/Dev
 for subdir in ./*/; do
