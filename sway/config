@@ -13,7 +13,7 @@ set $vars PATH=$PATH:~/.config/scripts TERMINAL=kitty EDITOR='zeditor -n'
 
 include /etc/sway/config-vars.d/*
 
-
+exec ~/.config/scripts/auto-pull.sh
 input type:keyboard {
     xkb_layout us,ru
     xkb_options grp:shift_caps_switch,grp_led:caps,numpad:mac
