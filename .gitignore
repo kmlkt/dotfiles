@@ -4,7 +4,8 @@
 !kitty
 !qalculate
 qalculate/qalc.history
-!scripts/*
+!scripts/**
+!scripts/auto-push.sh
 !sway
 !waybar
 !yazi
