@@ -36,9 +36,8 @@ $mod+c exec zeditor ~/.config
 $mod+s exec $vars $term -e ~/.config/scripts/sync.sh
 $mod+q exec $vars $term -e qalc --set "autocalc yes"
 Print exec grim -g "$(slurp -d)" - | wl-copy
-$mod+Delete exec shutdown now
-$mod+Insert exec shutdown now --reboot
-
+$mod+Delete exec ~/.config/scripts/auto-push.sh && shutdown now
+$mod+Insert exec ~/.config/scripts/auto-push.sh && shutdown now --reboot
 --release $mod+Escape kill
 $mod+Shift+c reload
 
