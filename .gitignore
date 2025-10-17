@@ -4,7 +4,7 @@
 !kitty
 !qalculate
 qalculate/qalc.history
-!scripts
+!scripts/*
 !sway
 !waybar
 !yazi
@@ -13,4 +13,3 @@ qalculate/qalc.history
 !mimeapps.list
 !packages.txt
 !pavucontrol.ini
-!scripts
