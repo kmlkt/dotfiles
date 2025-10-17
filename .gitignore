@@ -1,11 +1,10 @@
-*
+/*
 !desktop
 !fuzzel
 !kitty
 !qalculate
 qalculate/qalc.history
-!scripts/**
-!scripts/auto-push.sh
+!scripts/
 !sway
 !waybar
 !yazi
