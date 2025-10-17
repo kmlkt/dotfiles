@@ -1,2 +1,2 @@
-sync-config.sh
-install-packages.sh
+~/.config/scripts/sync-config.sh
+~/.config/scripts/install-packages.sh
