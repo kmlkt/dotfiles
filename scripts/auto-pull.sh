@@ -1,4 +1,4 @@
-sleep 10
+sleep 1m
 
 ~/.config/scripts/sync-config.sh
 cd ~/Dev
