@@ -14,7 +14,7 @@ set $scripts ~/.config/scripts
 
 include /etc/sway/config-vars.d/*
 
-exec ~/.config/scripts/auto-pull.sh
+exec $scripts/auto-pull.sh
 input type:keyboard {
     xkb_layout us,ru
     xkb_options grp:shift_caps_switch,grp_led:caps,numpad:mac
@@ -36,7 +36,8 @@ $mod+a exec AmneziaVPN
 $mod+n exec obsidian
 $mod+c exec zeditor ~/.config
 $mod+s exec $vars $term -e $scripts/sync.sh
-$mod+p exec $scripts/auto-push.sh
+$mod+g+Up exec $scripts/auto-push.sh
+$mod+g+Down exec $scripts/auto-pull.sh
 $mod+q exec $vars $term -e qalc --set "autocalc yes"
 Print exec grim -g "$(slurp -d)" - | wl-copy
 $mod+Delete exec $scripts/auto-push.sh && shutdown now
