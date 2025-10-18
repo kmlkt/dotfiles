@@ -85,6 +85,7 @@ gvfs-mtp
 obsidian
 docker
 go
+fheroes2
 
 cups
 usbutils
