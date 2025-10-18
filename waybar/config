@@ -14,7 +14,8 @@
             "class<(.*)kitty(.*)> title<(.*)Yazi(.*)>": "Y",
             "class<(.*)kitty(.*)>": "T",
             "class<(.*)telegram(.*)>": "Tg",
-            "class<(.*)betterbird(.*)>": "M"
+            "class<(.*)betterbird(.*)>": "M",
+            "class<(.*)obsidian(.*)>": "N"
         },
         "window-rewrite-default": "{name}",
     },

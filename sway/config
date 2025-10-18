@@ -32,6 +32,7 @@ $mod+y exec $vars $term -e yazi
 $mod+m exec pcmanfm
 $mod+t exec Telegram
 $mod+a exec AmneziaVPN
+$mod+n exec obsidian
 $mod+c exec zeditor ~/.config
 $mod+s exec $vars $term -e ~/.config/scripts/sync.sh
 $mod+q exec $vars $term -e qalc --set "autocalc yes"
