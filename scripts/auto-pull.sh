@@ -1,6 +1,6 @@
-sleep 30
+#sleep 30
 
-~/.config/scripts/sync-config.sh
+(~/.config/scripts/sync-config.sh)&
 cd ~/Dev
 for subdir in ./*/; do
   (if [[ -d "$subdir" ]]; then # Check if it's a directory
@@ -13,3 +13,4 @@ for subdir in ./*/; do
     cd ..
   fi)&
 done
+wait
