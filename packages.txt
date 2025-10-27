@@ -62,6 +62,7 @@ betterbird-bin
 7zip
 zip
 unzip
+zstd
 wl-clipboard
 libqalculate
 menu-qalc
