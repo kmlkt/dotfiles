@@ -86,6 +86,7 @@ gvfs-mtp
 obsidian
 docker
 go
+rust
 transmission-gtk
 
 cups
