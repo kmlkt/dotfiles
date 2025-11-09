@@ -87,6 +87,7 @@ obsidian
 docker
 go
 rust
+llvm
 transmission-gtk
 
 cups
