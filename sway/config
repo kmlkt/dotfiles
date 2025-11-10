@@ -1,8 +1,9 @@
 default_border pixel
+client.focused #000000 #a0a0a0 #000000
 hide_edge_borders both
 smart_borders on
 
-exec_always swaybg -c ffffff
+exec_always swaybg -c 000000
 focus_follows_mouse no
 
 ### Variables

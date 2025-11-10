@@ -6,7 +6,7 @@
     "modules-right": ["tray", "network", "pulseaudio", "battery", "clock"],
 
     "sway/workspaces": {
-        "format": "<span color='#a0a0a0'>{value}</span> {windows}",
+        "format": "<span color='#ffffff'>{value}</span> {windows}",
         "window-format": "{name}",
         "window-rewrite": {
             "class<(.*)waterfox(.*)": "B",
