@@ -92,7 +92,7 @@ transmission-gtk
 tesseract
 tesseract-data-eng
 tesseract-data-rus
-tigervnc
+virt-manager
 
 cups
 usbutils
