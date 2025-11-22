@@ -92,6 +92,7 @@ transmission-gtk
 tesseract
 tesseract-data-eng
 tesseract-data-rus
+tigervnc
 
 cups
 usbutils
