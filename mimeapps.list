@@ -6,3 +6,4 @@ inode/directory=pcmanfm.desktop
 application/octet-stream=dev.zed.Zed.desktop;
 inode/directory=dev.zed.Zed.desktop;
 text/x-go=waterfox.desktop;
+text/plain=rider.desktop;
