@@ -90,6 +90,7 @@ go
 rustup
 transmission-gtk
 tesseract
+tesseract-data-eng
 
 cups
 usbutils
