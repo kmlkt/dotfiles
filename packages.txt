@@ -89,6 +89,7 @@ docker
 go
 rustup
 transmission-gtk
+tesseract
 
 cups
 usbutils
