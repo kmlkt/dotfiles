@@ -35,6 +35,7 @@ $mod+m exec pcmanfm
 $mod+t exec Telegram
 $mod+a exec AmneziaVPN
 $mod+n exec obsidian
+$mod+r exec rider
 $mod+c exec zeditor ~/.config
 $mod+s exec $vars $term -e $scripts/sync.sh
 $mod+g+Up exec $scripts/auto-push.sh

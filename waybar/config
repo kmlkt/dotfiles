@@ -15,9 +15,10 @@
             "class<(.*)kitty(.*)>": "T",
             "class<(.*)telegram(.*)>": "Tg",
             "class<(.*)betterbird(.*)>": "M",
-            "class<(.*)obsidian(.*)>": "N"
+            "class<(.*)obsidian(.*)>": "N",
+            "class<(.*)rider(.*)> title<([^,—]*)(.*)>": "R: $3"
         },
-        "window-rewrite-default": "{name}",
+        "window-rewrite-default": "{name}"
     },
 
     "tray": {
