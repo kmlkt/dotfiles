@@ -29,7 +29,7 @@ bindsym --to-code {
 --release Super_L exec $vars $menu
 $mod+Return exec $term
 $mod+z exec zeditor
-$mod+b exec waterfox
+$mod+b exec firefox
 $mod+y exec $vars $term -e yazi
 $mod+m exec pcmanfm
 $mod+t exec Telegram

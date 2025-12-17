@@ -10,6 +10,7 @@
         "window-format": "{name}",
         "window-rewrite": {
             "class<(.*)waterfox(.*)": "B",
+            "class<(.*)firefox(.*)": "B",
             "class<(.*)zed(.*)> title<([^,—]*)(.*)>": "Z:$3",
             "class<(.*)kitty(.*)> title<(.*)Yazi(.*)>": "Y",
             "class<(.*)kitty(.*)>": "T",
