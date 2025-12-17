@@ -1,34 +1,34 @@
 {
   "debugger": {
-    "dock": "right"
+    "dock": "right",
   },
   "telemetry": {
     "metrics": false,
-    "diagnostics": false
+    "diagnostics": false,
   },
   "format_on_save": "on",
   "title_bar": {
-    "show_user_picture": false
+    "show_user_picture": false,
   },
   "toolbar": {
     "agent_review": false,
     "breadcrumbs": false,
     "code_actions": false,
     "quick_actions": false,
-    "selections_menu": false
+    "selections_menu": false,
   },
   "buffer_font_family": "Fira Code",
   "buffer_font_features": {
-    "ligatures": true
+    "ligatures": true,
   },
   "ui_font_size": 16,
   "buffer_font_size": 16,
   "theme": {
     "mode": "system",
     "light": "One Dark",
-    "dark": "One Dark"
+    "dark": "One Dark",
   },
   "terminal": {
-    "cursor_shape": "bar"
-  }
+    "cursor_shape": "bar",
+  },
 }
