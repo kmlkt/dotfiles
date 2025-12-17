@@ -39,7 +39,7 @@ vulkan-intel
 vulkan-nouveau
 vulkan-radeon
 fuzzel
-waterfox-bin
+firefox
 waybar
 wget
 wireless_tools
@@ -58,7 +58,6 @@ yay-bin
 yazi
 zed
 amneziavpn-bin
-betterbird-bin
 7zip
 zip
 unzip
@@ -66,13 +65,10 @@ zstd
 wl-clipboard
 libqalculate
 menu-qalc
-onlyoffice-bin
 smbclient
 nmap
 fzf
 fd
-android-studio
-rider
 openssh
 vlc
 vlc-plugins-all
@@ -83,10 +79,6 @@ gvfs-smb
 xarchiver
 lxappearance
 arc-gtk-theme
-gvfs-mtp
-obsidian
-docker
-go
 rustup
 transmission-gtk
 tesseract
