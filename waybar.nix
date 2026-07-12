@@ -22,12 +22,23 @@
           "sway/language"
           "wireplumber#sink"
           "backlight"
+          "custom/wireguard"
           "network"
           "battery"
           "tray"
           "group/hardware"
           "group/session"
         ];
+
+        "custom/wireguard" = {
+          format = "{}";
+          exec = "ip link show wg0 >/dev/null 2>&1 && echo 'VPN' || echo '🏠︎'";
+          exec-if = "which wg";
+          interval = 5;
+          on-click = "sudo wg-toggle";
+          signal = 1;
+          tooltip-format = "Toggle VPN";
+        };
 
         "sway/language" = {
           format = "{flag}";

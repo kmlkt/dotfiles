@@ -52,6 +52,7 @@
         diagnostics = false;
       };
       format_on_save = "on";
+      disable_ai = true;
       title_bar = {
         show_user_picture = false;
       };
@@ -76,6 +77,7 @@
       terminal = {
         cursor_shape = "bar";
       };
+      cursor_blink = false;
     };
   };
 }

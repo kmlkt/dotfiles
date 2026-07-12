@@ -38,7 +38,7 @@
       input = {
         "*" = {
           xkb_layout = "us,ru";
-          xkb_options = "grp:shift_caps_switch,grp_led:scroll";
+          xkb_options = "grp:shift_caps_switch,grp_led:scroll,numpad:mac";
         };
       };
       keybindings =
@@ -53,8 +53,9 @@
           "${modifier}+m" = "exec pcmanfm";
 
           "--release Super_L" = "exec ${cfg.menu}";
-          "Print" = "exec grim -g \"$(slurp -d)\" - | wl-copy";
-          "${modifier}+Shift+S" = "exec pkexec nixos-rebuild switch";
+          "Print" =
+            "exec grim -g \"$(slurp -d)\" - | tee ~/Pictures/Screenshots/$(date +%Y-%m-%d_%H-%M-%S).png | wl-copy";
+          "${modifier}+Shift+S" = "exec sudo nixos-rebuild switch";
 
           "--release ${modifier}+Escape" = "kill";
           "${modifier}+${cfg.left}" = "focus left";
